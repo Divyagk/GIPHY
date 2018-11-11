@@ -2,8 +2,7 @@ $(document).ready(function () {
 
     // Initial array of sports
     var topics = ["Boxing", "Soccer", "Baseball", "Ice hockey", "Badminton", "Basketball", "Mind sport", "Tennis", "Rowing", "Bowling", "Table tennis"];
-    // apikey=WHFMIfploVoswYVxgob2X3QZdEHAgXyX;
-    // curl "http://api.giphy.com/v1/gifs/search?q=cricket&api_key=WHFMIfploVoswYVxgob2X3QZdEHAgXyX&limit=10"
+
 
 
     function displaySportsinfo() {
@@ -29,8 +28,8 @@ $(document).ready(function () {
 
                 var sportimage = $("<img>");
                 sportimage.attr("src", result[i].images.fixed_height_still.url);
-                sportimage.attr("data-still",result[i].images.fixed_height_still.url);
-                sportimage.attr("data-animate",result[i].images.fixed_height.url);
+                sportimage.attr("data-still", result[i].images.fixed_height_still.url);
+                sportimage.attr("data-animate", result[i].images.fixed_height.url);
                 sportimage.attr("data-state", "still");
                 sportimage.addClass("gif");
 
@@ -46,8 +45,8 @@ $(document).ready(function () {
             function updateState(state, ele) {
                 $(ele).attr("src", $(ele).attr("data-" + state));
                 $(ele).attr("data-state", state);
-              }
-              $(".gif").on("click", function () {
+            }
+            $(".gif").on("click", function () {
                 // The attr jQuery method allows us to get or set the value of any attribute on our HTML element
                 var state = $(this).attr("data-state");
                 var dAnimate = $(this).attr("data-animate")
@@ -55,22 +54,16 @@ $(document).ready(function () {
                 // Then, set the image's data-state to animate
                 // Else set src to the data-still value
                 if (state === "still") {
-                  updateState('animate', this);
+                    updateState('animate', this);
                 } else {
-                  updateState('still', this);
+                    updateState('still', this);
                 }
-              });
-        
+            });
+
 
         });
 
     }
-
-
-
-
-
-
 
     function renderButtons() {
         $("#buttons-view").empty();
@@ -96,15 +89,15 @@ $(document).ready(function () {
         console.log(topics);
 
 
-        // Calling renderButtons which handles the processing of our movie array
+        // Calling renderButtons which handles the processing of our sports array
         renderButtons();
-        
+
 
 
     });
-    
+
     $(document).on("click", ".sport", displaySportsinfo);
-    
+
 
     renderButtons();
 });
