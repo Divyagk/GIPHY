@@ -15,22 +15,19 @@
 
 <body>
   <div class="container">
-    <div class="row">
-      <!-- <div class="col-md-4 "> -->
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
 
-        <!-- This form will be where users input data about the animals -->
-                <form id="animal-form">
-                  <label for="animal-input">Add an animal</label>
-                  <input type="text" id="animal-input"><br>
-            
-                  <!-- This button will trigger our AJAX call -->
-                  <input id="find-animal" type="submit">
-                </form>
+    <form id="sport-form">
+      <label for="sport-input">Add a sports item</label><br>
+      <input type="text" id="sport-input"><br><br>
 
+      <!-- Button triggers new movie to be added -->
+      <input id="add-sportitem" type="submit" >
+    </form>
 
-
-      <!-- </div> -->
-    </div>
+    <!-- Movies will Get Dumped Here -->
+    <div id="sport-view"></div>
   </div>
 </body>
 
