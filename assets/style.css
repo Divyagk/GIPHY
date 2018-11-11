@@ -1,4 +1,4 @@
-/* .container{
+#sport-form{
     margin-left:60%;
     margin-top:10%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -7,12 +7,34 @@
     font-style: bold;
 
 }
+
 #add-sportitem{
     background-color: rgb(215, 184, 245);
-} */
+ } 
+
 button,
     div,
     form,
     input {
       margin: 10px;
     }
+
+    
+    
+body {
+    background-image: url("../images/background.jpg");
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+/* p {
+    margin: 1em 3em 1em 0;
+    display: inline;
+    font-weight: bolder;
+} */
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
