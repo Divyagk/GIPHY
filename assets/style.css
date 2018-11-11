@@ -1,4 +1,4 @@
-.container{
+/* .container{
     margin-left:60%;
     margin-top:10%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -9,4 +9,10 @@
 }
 #add-sportitem{
     background-color: rgb(215, 184, 245);
-}
+} */
+button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
