@@ -1,17 +1,22 @@
+.jumbotron{
+    padding:2px;
+    margin-top: 2px;
+    color: rgb(22, 22, 46);
+
+}
+
 #sport-form{
     margin-left:60%;
     margin-top:10%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:20px;
-    color:rgb(34, 53, 161);
+    /* color:rgb(34, 53, 161); */
+    color: rgb(22, 22, 46);
     font-style: bold;
     
 
 }
-/* 
-#add-sportitem{
-    background-color: rgb(215, 184, 245);
- }  */
+
 
 button,
     div,
@@ -20,17 +25,7 @@ button,
       margin: 10px;
     }
 
-    
-    
 
-
- img {
-    width: 200px;
-    height: 200px;
-    float: left;
-    
-    /* display: flex; */
-} 
 
 
 
