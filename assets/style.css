@@ -16,6 +16,11 @@
     
 
 }
+img{
+width:200px;
+height:200px;
+
+}
 
 
 button,
@@ -24,6 +29,8 @@ button,
     input {
       margin: 10px;
     }
+
+    
 
 
 
