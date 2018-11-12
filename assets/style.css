@@ -5,12 +5,13 @@
     font-size:20px;
     color:rgb(34, 53, 161);
     font-style: bold;
+    
 
 }
-
+/* 
 #add-sportitem{
     background-color: rgb(215, 184, 245);
- } 
+ }  */
 
 button,
     div,
@@ -21,20 +22,26 @@ button,
 
     
     
-body{
-    background: url('../images/backgroungimg.jpg');
-    /* color: whitesmoke; */
-    font-size: 24px;
-}
 
-/* p {
-    margin: 1em 3em 1em 0;
-    display: inline;
-    font-weight: bolder;
-} */
-/* 
-img {
+
+ img {
     width: 200px;
     height: 200px;
     float: left;
-} */
+    
+    /* display: flex; */
+} 
+
+
+
+body {
+    background-image: url("images/backgroungimg.jpg");
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:bold;
+    
+  }
+#add-sportitem,button{
+    color:rgb(220, 204, 235);
+    background-color: rgb(45, 20, 68);
+}
