@@ -21,9 +21,9 @@ button,
 
     
     
-body {
-    background-image: url("../images/background.jpg");
-    color: whitesmoke;
+body{
+    background: url('../images/backgroungimg.jpg');
+    /* color: whitesmoke; */
     font-size: 24px;
 }
 
@@ -32,9 +32,9 @@ body {
     display: inline;
     font-weight: bolder;
 } */
-
+/* 
 img {
     width: 200px;
     height: 200px;
     float: left;
-}
+} */
